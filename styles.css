@@ -1,0 +1,129 @@
+@font-face {
+    font-family: 'Alcubierre';
+    src: url("font/Alcubierre.otf") format('truetype');
+}
+
+@font-face {
+    font-family: 'IntroRegular';
+    src: url("font/intro/Intro Regular Regular.otf") format('truetype');
+}
+
+@font-face {
+    font-family: 'IntroLight';
+    src: url("font/intro/Intro Light Regular.otf") format('truetype');
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    background-color: rgb(62, 63, 65);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.card-container {
+    background-color: rgb(12, 76, 129);
+    height: 200px;
+    width: 600px;
+    display: flex;
+    flex-direction: row;
+}
+
+.logo-container {
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+    height: 200px;
+    object-fit: contain;
+}
+
+.info-container {
+    display: flex;
+    flex-direction: row;
+    flex-grow: 1;
+}
+
+.personal-info {
+    color: white;
+    margin-left: 24px;
+    text-align: right;
+    display: flex;
+    flex-direction: column;
+}
+
+.name {
+    font-family: 'Alcubierre', sans-serif;
+    letter-spacing: 2px;
+    font-size: 32px;
+}
+
+.surname {
+    font-family: 'IntroRegular', sans-serif;
+    font-size: 32px;
+    letter-spacing: 2px;
+}
+
+.title {
+    font-family: 'IntroLight', sans-serif;
+    font-size: 12px;
+    letter-spacing: 2px;
+    margin-top: 47px;
+}
+
+.separator {
+    background-color: rgb(233, 181, 0);
+    width: 1px;
+    height: 130px;
+    align-self: center;
+    margin-left: 32px;
+}
+
+.contact-info {
+    margin-left: 24px;
+    color: white;
+}
+
+.phone {
+    font-family: 'IntroRegular', sans-serif;
+    margin-top: 48px;
+    font-size: 12px;
+}
+
+.email {
+    font-family: 'Alcubierre', sans-serif;
+    letter-spacing: 2px;
+    font-size: 13px;
+    margin-top: 8px;
+    line-height: 1.2;
+}
+
+.email span {
+    font-family: 'IntroRegular', sans-serif;
+}
+
+.address {
+    font-family: 'IntroLight', sans-serif;
+    font-size: 11px;
+    letter-spacing: 2px;
+    margin-top: 12px;
+    line-height: 1.2;
+}
+
+.social-icons {
+    display: flex;
+    flex-direction: row;
+    margin-top: 16px;
+}
+
+.icon {
+    width: 16px;
+    margin-left: 8px;
+}
+.icon:first-child {
+    margin-left: 0;
+}
